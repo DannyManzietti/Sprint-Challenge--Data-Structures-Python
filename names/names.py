@@ -11,7 +11,7 @@ f = open('names_2.txt', 'r')
 names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
-# starting solution: runtime O(n^2)
+# runtime O(n^2)
 # takes ~ 6.8 seconds
 
 duplicates = []  # Return the list of duplicates in this data structure
